@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Circle', 'Polygon', 'Rectangle', 'Square', 'Triangle']
+
+roboflow:
+  workspace: angelica-cordero
+  project: geometrical-shapes-wenog-mdvak
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/angelica-cordero/geometrical-shapes-wenog-mdvak/1
