@@ -1,0 +1,12 @@
+
+path: C:/Users/nico_/Downloads/DeteccionFormasYOLO12s/dataset_yolo
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names:
+  0: triangle
+  1: square
+  2: circle
+
